@@ -1,3 +1,4 @@
+" put me in the root directory!!!! /Users/<username>/.vimrc
 " make sure colored syntax mode is on
 if has("terminfo")
 	set t_Co=8
@@ -18,6 +19,7 @@ filetype indent on
 filetype plugin on
 
 command Marked !open -a Marked %:p
+command Sbin !sbinutil -f %:p
 
 set clipboard=unnamed
 set dictionary=/usr/share/dict/words
