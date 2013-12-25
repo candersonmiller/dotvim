@@ -62,3 +62,9 @@ autocmd BufEnter *.sql set ts=2 sw=2 expandtab
 autocmd BufEnter *.rb set ts=2 sw=2 expandtab
 
 
+augroup BufNewFileFromTemplate
+au!
+autocmd BufNewFile * silent! 0r $HOME/.vim/templates/%:e.tpl
+autocmd BufNewFile * normal! G"_dd1G
+autocmd BufNewFile * silent! match Todo /TODO/
+augroup BufNewFileFromTemplate
