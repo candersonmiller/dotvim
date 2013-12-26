@@ -85,4 +85,3 @@ if __name__ == '__main__':
         traceback.print_exc()
         os._exit(1)
 
-# vim:set sr et ts=4 sw=4 ft=python fenc=utf-8: // See Vim, :help 'modeline'
