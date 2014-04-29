@@ -10,3 +10,6 @@
 [submodule "bundle/vim-gitgutter"]
 	path = bundle/vim-gitgutter
 	url = git://github.com/airblade/vim-gitgutter.git
+[submodule "bundle/nvim"]
+	path = bundle/nvim
+	url = git://github.com/cwoac/nvim.git
