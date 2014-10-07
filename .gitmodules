@@ -13,3 +13,9 @@
 [submodule "bundle/nvim"]
 	path = bundle/nvim
 	url = git://github.com/cwoac/nvim.git
+[submodule "bundle/simplenote"]
+	path = bundle/simplenote
+	url = https://github.com/mrtazz/simplenote.vim.git
+[submodule "bundle/vim-jade"]
+	path = bundle/vim-jade
+	url = git://github.com/digitaltoad/vim-jade.git
