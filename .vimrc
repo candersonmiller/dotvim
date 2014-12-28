@@ -45,5 +45,12 @@ autocmd BufNewFile * silent! 0r $HOME/.vim/templates/%:e.tpl
 autocmd BufNewFile * normal! G"_dd1G
 autocmd BufNewFile * silent! match Todo /TODO/
 augroup BufNewFileFromTemplate
+set cursorline
+hi cursorline cterm=none term=none
+autocmd WinEnter * setlocal cursorline
+autocmd WinLeave * setlocal nocursorline
+highlight CursorLine guibg=#E0E0E0 ctermbg=1
+set number
+
 
 
